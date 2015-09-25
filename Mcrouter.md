@@ -1,1 +1,6 @@
-Mcrouter
+#Mcrouter
+memcached简化的proxy
+
+客户端共享连接池
+
+多种散列方法:mcrouter提供了一个行之有效的consistent hashing算法(furc_hash),算法允许给多个memcached实例分配哈希值。Hostname hashing再根据分配的哈希值为客户端选择一个独一无二的副本.在特定的应用中很有很多其他的有用的散列方法.
