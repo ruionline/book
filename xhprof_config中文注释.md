@@ -1,3 +1,4 @@
+```
 <?php
 $_xhprof = array();
 
@@ -138,3 +139,4 @@ unset($domain_weight);
     }
     return array_merge($addIns, $calls);
   }
+```
